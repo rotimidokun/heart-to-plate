@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  experimental: {
+    urlImports: [
+      "https://images.pexels.com/photos/",
+      "https://cdn.skypack.dev",
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
