@@ -1,10 +1,12 @@
-import React from "react";
-import { client } from "@/utils/config-sanity";
-
 import Image from "next/image";
-import HeroImage from "https://images.pexels.com/photos/11714372/pexels-photo-11714372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+import React from "react";
+// import { client } from "@/utils/config-sanity";
 
-async function getData() {}
+// import HeroImage from "https://images.pexels.com/photos/11714372/pexels-photo-11714372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+
+const HeroImage = require("https://images.pexels.com/photos/11714372/pexels-photo-11714372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+// async function getData() {}
 
 const HeroSection = () => {
   return (
