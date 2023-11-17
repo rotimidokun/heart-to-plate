@@ -26,8 +26,8 @@ const HeroSection = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-[#4E1544] opacity-25"></div>
 
       <div className="absolute text-white text-center inset-0 flex flex-col items-center justify-center">
-        <p className="text-7xl font-bold">Heart To Plate</p>
-        <p className="text-lg text-white">
+        <p className="text-5xl sm:text-7xl font-bold">Heart To Plate</p>
+        <p className="text-base sm:text-lg text-white w-[80%] mx-auto my-0">
           Tonight, we invite you to not only savor the delicious offerings but
           also to engage in conversations about the stories behind the recipes,
           the passion that drives the culinary artists, and the traditions that
@@ -43,7 +43,7 @@ const HeroSection = () => {
       <Image
         src={HearToPlate}
         alt="heart to plate"
-        className="h-[9.375rem] w-[9.375rem] absolute bottom-6 right-6"
+        className="top-4 left-1/2 transform -translate-x-1/2 h-[9.375rem] w-[9.375rem] absolute sm:bottom-6 sm:right-6"
       />
     </div>
   );
