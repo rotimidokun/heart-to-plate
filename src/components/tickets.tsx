@@ -5,7 +5,7 @@ import { GetTicketButton } from './get-ticket-button';
 
 export const Tickets = () => {
   return (
-    <div className="relative px-6 py-12">
+    <div id="tickets" className="relative px-6 py-12">
       <div className="bg-[#171616] mix-blend-overlay absolute inset-0 object-cover -z-10">
         <Image src={TicketTexture} className="h-full w-full" alt="background" />
       </div>
@@ -31,7 +31,11 @@ export const Tickets = () => {
           <li>Benefit 3</li>
         </ul>
 
-        <GetTicketButton text="Get Regular Ticket" />
+        <GetTicketButton
+          className="w-40"
+          text="Get Regular Ticket"
+          href="https://paystack.com/pay/9-ixptsa6y"
+        />
       </div>
 
       <div className="bg-[#B442A1] flex flex-col items-center rounded-xl py-6">
@@ -45,8 +49,9 @@ export const Tickets = () => {
         </ul>
 
         <GetTicketButton
+          href="https://paystack.com/pay/9-ixptsa6y"
           text="Get VIP Ticket"
-          className="bg-[#FFE3B1] text-[#B442A1]"
+          className="bg-[#FFE3B1] text-[#B442A1] w-40"
         />
       </div>
     </div>

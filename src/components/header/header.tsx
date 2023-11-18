@@ -1,15 +1,31 @@
+'use client';
+
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '@/assets/logo.svg';
 import { SocialIcons } from '../social-icons';
 import { HamBurger } from '../../assets/hamburger';
 import { CountDown } from '@/components/countdown';
 import Link from 'next/link';
 import { GetTicketButton } from '../get-ticket-button';
+import { X } from 'lucide-react';
+import { NavigateToSection } from '../navigate-section-button';
 
 const Header = () => {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenuAndNavigate = () => {
+    setMenuOpen(false);
+  };
+
+  const BorderDivider = () => <div className="border-b border-[#8D337E]"></div>;
+
   return (
-    <div>
+    <div className="sticky top-0 z-50 bg-white">
       <div className="w-full flex items-center justify-center gap-16 bg-[#F0F0F0]">
         <CountDown />
       </div>
@@ -46,7 +62,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <GetTicketButton text="Get Tickets" />
+        <GetTicketButton href="/" text="Get Tickets" />
       </nav>
 
       {/* mobile nav */}
@@ -58,7 +74,59 @@ const Header = () => {
           </p>
         </div>
 
-        <HamBurger className="h-6 w-6" />
+        <div className="cursor-pointer" onClick={toggleMenu}>
+          {isMenuOpen ? (
+            <div className="h-10 w-10 rounded-full flex items-center justify-center border-[#8D337E] border-[1.5px]">
+              <X stroke="#8D337E" />
+            </div>
+          ) : (
+            <HamBurger className="h-6 w-6" />
+          )}
+        </div>
+
+        {isMenuOpen && (
+          <div className="fixed top-0 right-0 bottom-0 left-0 bg-white w-[60%] p-4 z-50 shadow-lg">
+            <div className="flex flex-col gap-4">
+              <a
+                href="/"
+                className="text-base text-center text-[#8D337E] font-medium hover:dark:bg-gray-200 py-4 rounded-md"
+                onClick={closeMenuAndNavigate}
+              >
+                Home
+              </a>
+
+              <a
+                href="#about"
+                className="text-base text-center text-[#8D337E] font-medium hover:dark:bg-gray-200 py-4 rounded-md"
+                onClick={closeMenuAndNavigate}
+              >
+                About
+              </a>
+
+              <a
+                href="#event"
+                className="text-base text-center text-[#8D337E] font-medium hover:dark:bg-gray-200 py-4 rounded-md"
+                onClick={closeMenuAndNavigate}
+              >
+                Event
+              </a>
+
+              <a
+                href="#contact"
+                className="text-base text-center text-[#8D337E] font-medium hover:dark:bg-gray-200 py-4 rounded-md"
+                onClick={closeMenuAndNavigate}
+              >
+                Contact Us
+              </a>
+
+              <NavigateToSection
+                text="Get Tickets"
+                href="#tickets"
+                onClick={closeMenuAndNavigate}
+              />
+            </div>
+          </div>
+        )}
       </nav>
     </div>
   );

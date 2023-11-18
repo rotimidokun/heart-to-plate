@@ -2,7 +2,10 @@ import { ArrowRight } from 'lucide-react';
 
 export const Contact = () => {
   return (
-    <div className="bg-[#64325B] text-lg text-[#F9FAFB] rounded-2xl relative overflow-hidden w-full mt-6 mb-8">
+    <div
+      id="contact"
+      className="bg-[#64325B] text-lg text-[#F9FAFB] rounded-2xl relative overflow-hidden w-full mt-6 mb-8"
+    >
       <div className="px-4 pt-8">
         <p className="font-medium text-center text-[1.3rem]">
           Do you need something else?
@@ -18,7 +21,9 @@ export const Contact = () => {
 
       <div className="mb-8 mt-12 flex justify-center">
         <div className="inline-flex justify-center items-center bg-[#8D337E] gap-2 px-5 py-3 rounded-lg">
-          <p className="text-lg">Contact Us</p>
+          <a href="#contact" className="text-lg">
+            Contact Us
+          </a>
           <ArrowRight size="1rem" />
         </div>
       </div>

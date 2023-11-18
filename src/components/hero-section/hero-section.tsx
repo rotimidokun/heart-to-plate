@@ -3,6 +3,7 @@ import React from 'react';
 import HeroImage from '@/assets/hero-image.png';
 import Ticket from '../../../public/tickets-icon.svg';
 import HearToPlate from '../../../public/heart-to-plate.png';
+import { NavigateToSection } from '../navigate-section-button';
 
 const HeroSection = () => {
   return (
@@ -34,7 +35,10 @@ const HeroSection = () => {
         </p>
 
         <div className="bg-[#64325B] opacity-[0.85] flex py-[1rem] px-[0.938rem] rounded-lg gap-5 mb-8">
-          <p className="text-base">Get Tickets</p>
+          <a href="#tickets" className="text-base">
+            Get Tickets
+          </a>
+
           <Image src={Ticket} alt="ticket" className="h-6 w-6" />
         </div>
       </div>

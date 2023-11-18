@@ -1,16 +1,11 @@
 import Image from 'next/image';
-// import React from "react";
-// import HappyPeople from "https://images.pexels.com/photos/6210512/pexels-photo-6210512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
-// import Tickets from "https://images.pexels.com/photos/17527817/pexels-photo-17527817/free-photo-of-tickets-text-on-yellow-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 import MyStory from '../../../public/my-story.png';
-import { GetTicketButton } from '../get-ticket-button';
 import { FounderImageEllipse } from '@/assets/founder-image-ellipse';
-import { Ellipse } from '@/assets/ellipse';
-import Texture from '@/assets/texture.png';
+import { NavigateToSection } from '../navigate-section-button';
 
 export const About = () => {
   return (
-    <div>
+    <div id="about">
       <div className="bg-[#FFF4EA] pt-12 pb-16 px-5">
         <div className="flex justify-center">
           <Image
@@ -40,7 +35,7 @@ export const About = () => {
         </div>
 
         <div className="flex justify-center">
-          <GetTicketButton text="Get Tickets" />
+          <NavigateToSection text="Get Tickets" href="#tickets" />
         </div>
 
         <div className="flex flex-col justify-center items-center relative bg-[#FFF4EA] px-6 mt-14">
