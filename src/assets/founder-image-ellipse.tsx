@@ -5,7 +5,7 @@ import { SVGProps } from 'react';
 import FounderImage from '../../public/founder-image.png';
 
 type Props = {
-  props: SVGProps<SVGSVGElement>;
+  props?: SVGProps<SVGSVGElement>;
   className?: string;
 };
 
