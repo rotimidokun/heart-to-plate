@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import { SVGProps } from "react";
-import FounderImage from "../../public/founder-image.png";
+import Image from 'next/image';
+import { SVGProps } from 'react';
+import FounderImage from '../../public/founder-image.png';
 
 type Props = {
   props: SVGProps<SVGSVGElement>;
@@ -30,13 +30,7 @@ export const FounderImageEllipse = ({ className, props }: Props) => {
           </mask>
         </defs>
       </svg>
-      <Image
-        src={FounderImage}
-        width={303}
-        height={334}
-        // className="w-full h-full"
-        alt=""
-      />
+      <Image src={FounderImage} width={303} height={334} alt="founder" />
     </div>
   );
 };

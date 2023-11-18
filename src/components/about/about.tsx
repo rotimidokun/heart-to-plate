@@ -1,12 +1,12 @@
-import Image from "next/image";
+import Image from 'next/image';
 // import React from "react";
 // import HappyPeople from "https://images.pexels.com/photos/6210512/pexels-photo-6210512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 // import Tickets from "https://images.pexels.com/photos/17527817/pexels-photo-17527817/free-photo-of-tickets-text-on-yellow-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
-import MyStory from "../../../public/my-story.png";
-import { GetTicketButton } from "../get-ticket-button";
-import { FounderImageEllipse } from "@/assets/founder-image-ellipse";
-import { Ellipse } from "@/assets/ellipse";
-import Texture from "@/assets/texture.png";
+import MyStory from '../../../public/my-story.png';
+import { GetTicketButton } from '../get-ticket-button';
+import { FounderImageEllipse } from '@/assets/founder-image-ellipse';
+import { Ellipse } from '@/assets/ellipse';
+import Texture from '@/assets/texture.png';
 
 export const About = () => {
   return (
@@ -40,18 +40,16 @@ export const About = () => {
         </div>
 
         <div className="flex justify-center">
-          <GetTicketButton />
+          <GetTicketButton text="Get Tickets" />
         </div>
-      </div>
 
-      <div className="flex justify-center relative bg-[#FFF4EA] h-[26rem]">
-        {/* <Image src={Texture} className="h-full w-full" alt="background" /> */}
-        <FounderImageEllipse className="absolute top-0 left-36 z-10" />
-        <Ellipse className="absolute top-0" />
+        <div className="flex flex-col justify-center items-center relative bg-[#FFF4EA] px-6 mt-14">
+          <FounderImageEllipse className="w-[90%]" />
 
-        <div className="bottom-0 absolute flex flex-col justify-center items-center">
-          <p className="text-[#8D337E] text-base font-medium">CEO</p>
-          <p className="text-lg">EFEOSA SIGNATURES</p>
+          <div className="flex flex-col justify-center items-center pt-4">
+            <p className="text-[#8D337E] text-base font-medium">CEO</p>
+            <p className="text-lg">EFEOSA SIGNATURES</p>
+          </div>
         </div>
       </div>
     </div>

@@ -1,20 +1,25 @@
-import Image from "next/image";
-import React from "react";
-import logo from "@/assets/logo.svg";
-import { SocialIcons } from "../social-icons";
-// import Hamburger from "../../../public/hamburger.svg";
-import { HamBurger } from "../../assets/hamburger";
-import { CountDown } from "../countdown";
-import Link from "next/link";
-import { GetTicketButton } from "../get-ticket-button";
+import Image from 'next/image';
+import React from 'react';
+import logo from '@/assets/logo.svg';
+import { SocialIcons } from '../social-icons';
+import { HamBurger } from '../../assets/hamburger';
+import { CountDown } from '@/components/countdown';
+import Link from 'next/link';
+import { GetTicketButton } from '../get-ticket-button';
 
 const Header = () => {
   return (
     <div>
-      <div className="w-full h-[4.375rem] flex items-center justify-center gap-16 bg-[#F0F0F0]">
+      <div className="w-full flex items-center justify-center gap-16 bg-[#F0F0F0]">
         <CountDown />
-        <SocialIcons />
       </div>
+
+      {/* mobile fixed section */}
+
+      {/* <div className="w-full h-[4.375rem] flex items-center justify-center gap-16 bg-[#F0F0F0]">
+        <SocialIcons />
+      </div> */}
+
       <nav className="hidden text-xl text-green flex justify-between py-4 px-10 bg-white h-[5.625rem] items-center">
         <div className="flex items-center gap-6">
           <Image src={logo} className="h-[4.375rem] w-[4.375rem]" alt="logo" />
@@ -41,9 +46,10 @@ const Header = () => {
           </Link>
         </div>
 
-        <GetTicketButton />
+        <GetTicketButton text="Get Tickets" />
       </nav>
 
+      {/* mobile nav */}
       <nav className="flex items-center justify-between p-4">
         <div className="flex items-center gap-2">
           <Image src={logo} className="h-16 w-16" alt="logo" />
