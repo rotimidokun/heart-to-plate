@@ -5,7 +5,7 @@ import { NavigateToSection } from '../navigate-section-button';
 
 export const About = () => {
   return (
-    <div id="about">
+    <div id="about" className="scroll-mt-[10rem]">
       <div className="bg-[#FFF4EA] pt-12 pb-16 px-5">
         <div className="flex justify-center">
           <Image

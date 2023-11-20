@@ -36,7 +36,7 @@ const Header = () => {
         <SocialIcons />
       </div> */}
 
-      <nav className="hidden text-xl text-green flex justify-between py-4 px-10 bg-white h-[5.625rem] items-center">
+      <nav className="hidden text-xl text-green justify-between py-4 px-10 bg-white h-[5.625rem] items-center">
         <div className="flex items-center gap-6">
           <Image src={logo} className="h-[4.375rem] w-[4.375rem]" alt="logo" />
           <p className="text-[#64325B] text-xl font-normal">
@@ -85,7 +85,7 @@ const Header = () => {
         </div>
 
         {isMenuOpen && (
-          <div className="fixed top-0 right-0 bottom-0 left-0 bg-white w-[60%] p-4 z-50 shadow-lg">
+          <div className="fixed top-0 right-0 bottom-0 left-0 bg-white w-[70%] p-4 z-50 shadow-lg">
             <div className="flex flex-col gap-4">
               <a
                 href="/"
@@ -104,11 +104,11 @@ const Header = () => {
               </a>
 
               <a
-                href="#event"
+                href="#merchandise"
                 className="text-base text-center text-[#8D337E] font-medium hover:dark:bg-gray-200 py-4 rounded-md"
                 onClick={closeMenuAndNavigate}
               >
-                Event
+                Merchandise
               </a>
 
               <a

@@ -5,7 +5,7 @@ import { GetTicketButton } from './get-ticket-button';
 
 export const Tickets = () => {
   return (
-    <div id="tickets" className="relative px-6 py-12">
+    <div id="tickets" className="relative px-6 py-12 scroll-mt-[10rem]">
       <div className="bg-[#171616] mix-blend-overlay absolute inset-0 object-cover -z-10">
         <Image src={TicketTexture} className="h-full w-full" alt="background" />
       </div>

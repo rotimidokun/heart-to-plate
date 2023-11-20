@@ -9,7 +9,7 @@ import { GetTicketButton } from './get-ticket-button';
 
 export const Merchandise = () => {
   return (
-    <div className="bg-[#F8D2F2] py-8">
+    <div id="merchandise" className="bg-[#F8D2F2] py-8 scroll-mt-[10rem]">
       <p className="uppercase text-[#B442A1] text-lg font-medium text-center">
         Merchandise
       </p>
