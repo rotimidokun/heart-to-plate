@@ -8,6 +8,7 @@ import { Tickets } from '@/components/tickets';
 import './globals.css';
 
 import { DM_Sans } from 'next/font/google';
+import { Merchandise } from '@/components/merchandise';
 
 const dmScript = DM_Sans({ subsets: ['latin'] });
 
@@ -19,6 +20,7 @@ export default function Home() {
         <HeroSection />
         <About />
         <Tickets />
+        <Merchandise />
         <Footer />
       </main>
     </div>
