@@ -31,8 +31,8 @@ export const Footer = () => {
         <Image src={Logo} className="h-20 w-20" alt="logo" />
 
         <div className="">
-          <p className="text-[#64325B]">+234 808 661 9469</p>
-          <p className="text-[#64325B]">hello@efeosasignatures.com</p>
+          <p className="text-[#64325B]">+234 808 806 7308</p>
+          <p className="text-[#64325B]">efeosasignatures@gmail.com</p>
         </div>
       </div>
     </div>

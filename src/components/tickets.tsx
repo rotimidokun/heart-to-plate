@@ -37,14 +37,13 @@ export const Tickets = () => {
         <GetTicketButton
           className="w-40"
           text="Get Regular Ticket"
-          href="https://paystack.com/pay/9-ixptsa6y"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdvkA7jfJPWZJHpeKn1LvTBfLd9HkYLG2VUnkmYDeLP99IrXw/viewform"
         />
       </div>
 
       <div className="bg-[#B442A1] flex flex-col items-center rounded-xl py-6 px-6">
         <p className="text-white uppercase font-semibold text-xl">VIP</p>
         <ul className="text-white list-decimal py-4 w-[85%]">
-          <li>All benefits in Free ticket</li>
           <li>Access to all meals prepared </li>
           <li>Access to the special meal of the day</li>
           <li>Access to all drinks</li>
