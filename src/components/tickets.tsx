@@ -21,14 +21,17 @@ export const Tickets = () => {
         </p>
       </div>
 
-      <div className="bg-[#FFE3B1] flex flex-col items-center rounded-xl py-6 mb-6">
+      <div className="bg-[#FFE3B1] flex flex-col items-center rounded-xl py-6 px-6 mb-6">
         <p className="uppercase text-[#B442A1] font-semibold text-xl">
-          Regular (Price)
+          Regular (FREE)
         </p>
-        <ul className="list-disc py-4">
-          <li>Benefit 1</li>
-          <li>Benefit 2</li>
-          <li>Benefit 3</li>
+        <ul className="list-decimal py-4 w-[85%]">
+          <li>Jollof or Stir fry spaghetti </li>
+          <li>Native Rice</li>
+          <li>Any swallow choice </li>
+          <li>Zobo</li>
+          <li>Water </li>
+          <li>Yoghurt </li>
         </ul>
 
         <GetTicketButton
@@ -38,15 +41,21 @@ export const Tickets = () => {
         />
       </div>
 
-      <div className="bg-[#B442A1] flex flex-col items-center rounded-xl py-6">
-        <p className="text-white uppercase font-semibold text-xl">
-          VIP (Price)
-        </p>
-        <ul className="text-white list-disc py-4">
-          <li>Benefit 1</li>
-          <li>Benefit 2</li>
-          <li>Benefit 3</li>
+      <div className="bg-[#B442A1] flex flex-col items-center rounded-xl py-6 px-6">
+        <p className="text-white uppercase font-semibold text-xl">VIP</p>
+        <ul className="text-white list-decimal py-4 w-[85%]">
+          <li>All benefits in Free ticket</li>
+          <li>Access to all meals prepared </li>
+          <li>Access to the special meal of the day</li>
+          <li>Access to all drinks</li>
         </ul>
+        <p className="pb-5 text-[#FFE3B1]">
+          * Merchandise purchase above
+          <span>
+            <strong> N7,000 </strong>
+          </span>
+          makes you a VIP
+        </p>
 
         <GetTicketButton
           href="https://paystack.com/pay/9-ixptsa6y"

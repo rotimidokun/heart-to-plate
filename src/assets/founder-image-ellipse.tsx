@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { SVGProps } from 'react';
-import FounderImage from '../../public/founder-image.png';
+import FounderImage from '@/assets/efeosa3.png';
 
 type Props = {
   props?: SVGProps<SVGSVGElement>;

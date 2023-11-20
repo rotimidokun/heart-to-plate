@@ -16,21 +16,31 @@ export const About = () => {
         </div>
 
         <div className="py-10">
-          <p className="text-[#64325B] text-center">
-            I decided to take a break from the monotony of my job and set out on
-            a journey of self-discovery. My destination was an enchanting little
-            village in the south of France, known for its picturesque vineyards
-            and quaint bistros. The beauty of the countryside was captivating,
-            but it was the aromas wafting from the local kitchen that truly
-            captured my heart.
+          <p className="text-[#64325B]">
+            In 2019, I embarked on a journey to excel in the culinary arts,
+            venturing into the cooking business. Focused on delivering
+            exceptional meals to the working class, I began selling food on
+            weekends while maintaining my 9-5 job.
             <br />
             <br />
-            One evening, while strolling through the village square, I stumbled
-            upon a small, family-owned restaurant. The flickering candlelight
-            and the chatter of diners drew me in. As I entered, the air was
-            filled with the heavenly scents of garlic, herbs, and sizzling
-            butter. I took a seat and ordered a meal that would forever change
-            my life.
+            My passion for cooking propelled me to become one of the top MCZ
+            food vendors in 2020. However, on February 15th, tragedy struck as I
+            collapsed and was swiftly taken to the hospital. It was later
+            revealed that I had a life-threatening heart condition, “a hole in
+            the heart “ with only a few days left to live.
+            <br />
+            <br />
+            A 50/50 challenging surgery took place on March 6th, 2021, lasting
+            longer than anticipated at 5 hours instead of the expected 3.
+            Following the procedure, I entered a 7-day coma, awakening to the
+            devastating realization of paralysis on the left side of my body and
+            partial memory loss. This setback forced the temporary closure of my
+            business.
+            <br />
+            <br />
+            Summoning courage alongside four professionals, I resumed operations
+            on December 9th, 2022. Despite the daunting challenges, the joy of
+            pursuing my passion for cooking made the journey worthwhile.
           </p>
         </div>
 

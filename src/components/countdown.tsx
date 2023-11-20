@@ -22,7 +22,7 @@ export const CountDown = ({ submissionClosed }: Props) => {
   }, []);
 
   return (
-    <div className="flex gap-4 m-4">
+    <div className="flex gap-[0.6rem] m-4">
       {/* <div className="flex flex-col items-center gap-2">
         <p className="bg-[#B442A1] w-10 h-10 rounded-md text-white flex items-center justify-center">
           {submissionClosed ? '0' : timeBetween.months()}

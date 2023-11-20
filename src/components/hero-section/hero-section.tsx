@@ -25,13 +25,15 @@ const HeroSection = () => {
       <div className="text-white text-center inset-0 flex flex-col items-center justify-center">
         <p className="text-4xl sm:text-7xl font-bold pb-4">Heart To Plate</p>
         <p className="text-base sm:text-lg text-white w-[75%] mx-auto my-0">
-          Tonight, we invite you to not only savor the delicious offerings but
-          also to engage in conversations about the stories behind the recipes,
-          the passion that drives the culinary artists, and the traditions that
-          make each dish a work of art.
+          Heart to Plate is a tasting experience designed to highlight the
+          resilience of EFEOSASignatures' business owner. Having triumphed over
+          a 5-hour open heart surgery, partial paralysis, and memory loss, we
+          now stand strong, running a successful food business. The event brings
+          together food enthusiasts to celebrate this remarkable journey with a
+          feast of love and admiration.
         </p>
         <p className="text-2xl py-4 text-[#FFD281] font-semibold">
-          21 December 2023
+          9 December 2023
         </p>
 
         <div className="bg-[#64325B] opacity-[0.85] flex py-[1rem] px-[0.938rem] rounded-lg gap-5 mb-8">
