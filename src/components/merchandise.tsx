@@ -36,7 +36,7 @@ export const Merchandise = () => {
         CROP TOP (N4,000)
       </p>
       <p className="py-4 text-center font-semibold text-lg mb-6 bg-[#B442A1] text-white">
-        REGULAR SHIRT (N4,000)
+        REGULAR SHIRT (N5,000)
       </p>
 
       <section className="flex flex-col gap-6 px-6">
@@ -53,7 +53,7 @@ export const Merchandise = () => {
 
       <div className="flex justify-center mt-6">
         <GetTicketButton
-          href="https://paystack.com/pay/9-ixptsa6y"
+          href="https://paystack.shop/heart-to-plate-merch"
           text="Get VIP Ticket"
           className="bg-black text-white w-40 shadow-sm"
         />

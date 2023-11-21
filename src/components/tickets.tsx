@@ -21,7 +21,10 @@ export const Tickets = () => {
         </p>
       </div>
 
-      <div className="bg-[#FFE3B1] flex flex-col items-center rounded-xl py-6 px-6 mb-6">
+      <div
+        id="regular"
+        className="bg-[#FFE3B1] flex flex-col items-center rounded-xl py-6 px-6 mb-6"
+      >
         <p className="uppercase text-[#B442A1] font-semibold text-xl">
           Regular (FREE)
         </p>
@@ -41,7 +44,10 @@ export const Tickets = () => {
         />
       </div>
 
-      <div className="bg-[#B442A1] flex flex-col items-center rounded-xl py-6 px-6">
+      <div
+        id="vip"
+        className="bg-[#B442A1] flex flex-col items-center rounded-xl py-6 px-6 scroll-mt-[11rem]"
+      >
         <p className="text-white uppercase font-semibold text-xl">VIP</p>
         <ul className="text-white list-decimal py-4 w-[85%]">
           <li>Access to all meals prepared </li>
@@ -57,7 +63,7 @@ export const Tickets = () => {
         </p>
 
         <GetTicketButton
-          href="https://paystack.com/pay/9-ixptsa6y"
+          href="https://paystack.shop/heart-to-plate-merch"
           text="Get VIP Ticket"
           className="bg-[#FFE3B1] text-[#B442A1] w-40"
         />

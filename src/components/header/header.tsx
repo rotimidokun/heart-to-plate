@@ -120,8 +120,15 @@ const Header = () => {
               </a>
 
               <NavigateToSection
-                text="Get Tickets"
+                text="Get Regular Tickets"
                 href="#tickets"
+                onClick={closeMenuAndNavigate}
+                className="bg-black"
+              />
+
+              <NavigateToSection
+                text="Get VIP Tickets"
+                href="#vip"
                 onClick={closeMenuAndNavigate}
               />
             </div>
