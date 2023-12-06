@@ -37,15 +37,15 @@ export const Tickets = () => {
           <li>Yoghurt </li>
         </ul>
 
-        {/* <GetTicketButton
+        <GetTicketButton
           className="w-40"
           text="Get Regular Ticket"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdvkA7jfJPWZJHpeKn1LvTBfLd9HkYLG2VUnkmYDeLP99IrXw/viewform"
-        /> */}
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeJTtS1mKNTxCY8cWB7iF0v-gX9KGnkIFgbSpHbhF33wXhh9Q/viewform"
+        />
 
-        <div className="text-sm font-medium px-3 py-[0.875rem] inline-flex items-center justify-center  bg-[#B442A1] text-white rounded-md w-40">
+        {/* <div className="text-sm font-medium px-3 py-[0.875rem] inline-flex items-center justify-center  bg-[#B442A1] text-white rounded-md w-40">
           Get Regular Ticket
-        </div>
+        </div> */}
       </div>
 
       <div

@@ -1,9 +1,7 @@
 'use client';
-
 import Image from 'next/image';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from '@/assets/logo.svg';
-import { SocialIcons } from '../social-icons';
 import { HamBurger } from '../../assets/hamburger';
 import { CountDown } from '@/components/countdown';
 import Link from 'next/link';
