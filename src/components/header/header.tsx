@@ -129,6 +129,12 @@ const Header = () => {
                 href="#vip"
                 onClick={closeMenuAndNavigate}
               />
+
+              <GetTicketButton
+                href="https://paystack.shop/heart-to-plate-merch"
+                text="Preorder Merchandise"
+                className="bg-[#FFE3B1] text-[#B442A1] shadow-sm w-full text-sm"
+              />
             </div>
           </div>
         )}

@@ -59,10 +59,10 @@ export const Tickets = () => {
           <li>Access to all drinks</li>
       </ul> */}
 
-        <p className="pb-5 text-[#FFE3B1]">
-          * VIP ticket is sold out however you can make
+        <p className="pb-5 text-[#FFE3B1] text-center">
+          * VIP ticket is sold out however you can
           <span>
-            <strong> Merchandise purchases </strong>
+            <strong> Preorder Merchandise </strong>
           </span>
         </p>
 
@@ -76,8 +76,8 @@ export const Tickets = () => {
       <div className="flex justify-center mt-9">
         <GetTicketButton
           href="https://paystack.shop/heart-to-plate-merch"
-          text="Get Merchandise"
-          className="bg-[#FFE3B1] text-[#B442A1] w-40"
+          text="Preorder Merchandise"
+          className="bg-[#FFE3B1] text-[#B442A1] w-[70%] text-base"
         />
       </div>
     </div>
