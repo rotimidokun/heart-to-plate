@@ -54,7 +54,7 @@ export const Merchandise = () => {
       <div className="flex justify-center mt-6">
         <GetTicketButton
           href="https://paystack.shop/heart-to-plate-merch"
-          text="Get VIP Ticket"
+          text="Get Merchandise"
           className="bg-black text-white w-40 shadow-sm"
         />
       </div>

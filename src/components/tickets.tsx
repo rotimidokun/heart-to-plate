@@ -53,22 +53,30 @@ export const Tickets = () => {
         className="bg-[#B442A1] flex flex-col items-center rounded-xl py-6 px-6 scroll-mt-[11rem]"
       >
         <p className="text-white uppercase font-semibold text-xl">VIP</p>
-        <ul className="text-white list-decimal py-4 w-[85%]">
+        {/* <ul className="text-white list-decimal py-4 w-[85%]">
           <li>Access to all meals prepared </li>
           <li>Access to the special meal of the day</li>
           <li>Access to all drinks</li>
-        </ul>
+      </ul> */}
+
         <p className="pb-5 text-[#FFE3B1]">
-          * Merchandise purchase above
+          * VIP ticket is sold out however you can make
           <span>
-            <strong> N7,000 </strong>
+            <strong> Merchandise purchases </strong>
           </span>
-          makes you a VIP
         </p>
 
         <GetTicketButton
+          href="javascript:void(0)"
+          text="SOLD OUT"
+          className="bg-[#FFE3B1] text-[red] w-40 pointer-events-none opacity-60 font-semibold text-base"
+        />
+      </div>
+
+      <div className="flex justify-center mt-9">
+        <GetTicketButton
           href="https://paystack.shop/heart-to-plate-merch"
-          text="Get VIP Ticket"
+          text="Get Merchandise"
           className="bg-[#FFE3B1] text-[#B442A1] w-40"
         />
       </div>
